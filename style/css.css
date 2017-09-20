@@ -1,0 +1,21 @@
+h1 {
+	display: inline-block;
+	font-family: 'Alex Brush', cursive;
+	margin-top: 20px;
+	
+}
+
+#header {
+	padding-left: 180px;
+	height: 300px;
+
+}
+
+.search {
+	padding-left: 100px;
+	padding-bottom: 200px;
+} 
+
+body {
+	background-color: red;
+}

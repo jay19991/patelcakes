@@ -1,0 +1,359 @@
+/*.name1 {
+	font-family: 'Allura', cursive;
+	font-size: 50px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.name2 {
+	color: red;
+	font-family: 'Allura', cursive;
+	font-size: 50px;
+	font-weight: bold;
+} */
+
+body {
+	background-color: rgb(242, 241, 239);
+}
+#title {
+	padding-left: 160px;
+	padding-top: 10px;
+	display: inline-block;
+	float: left;
+	background-color: white;
+	width: 1200px;
+}
+
+.search {
+	display: inline-block;
+	padding-left: 190px;
+}
+/*ul {
+	list-style-type: none; /* Used for removing bullets */
+/*	margin: 0;
+	padding-left: 48%;
+	text-decoration: none;
+} */
+
+li {
+	display: block; /* Used for Horizonatal Menu Navigation */
+	float: left;
+	padding: 12px;
+}
+li a {
+	text-decoration: none;
+	font-family: 'Unica One', cursive;
+	font-size: 22px;
+	color: black;
+}
+
+.main-navbar .navbar a:hover {
+	color: gray;
+	font-size: 24px;
+}
+
+.main-navbar {
+	padding-top: 160px;
+	
+}
+.navbar {
+	/*display: none;*/
+	overflow: hidden;
+	position: absolute;
+	background-color: rgb(218, 223, 225);
+	width: 97%; /* Full width */
+    height: 9%; /* Height of the Navigation Bar */
+    padding-left: 21%;
+    padding-top: 4px;
+    z-index: 1; /* Used beacuse nav and slide comes into same line*/
+}
+/* To Fix Size of Webpage in Mobile or Tablet */
+/*@media screen and (min-width: 600px){
+
+	.navbar{
+		float: right;
+	}
+}
+
+@media screen and (min-width: 900px){
+
+} */
+
+.slider {
+	z-index: 1; /* Used beacuse nav and slide comes into same line*/
+}
+
+
+/*Heading of about us page */
+h3 {
+	font-family: 'Unica One', cursive;
+	font-weight: bolder;
+	color: rgb(34, 49, 63);
+	font-size: 30px;
+}
+
+.heading {
+	display: inline-block;
+	float: left;
+/*	border: 1px solid red; */
+	padding-top: 0px;
+	padding-left: 18px;
+	padding-bottom: 100px; /* To make distance between footer and article */
+}
+.types {
+	display: inline-block;
+	text-align: center;
+	padding: 40px;
+}
+
+.cakes {
+	padding-bottom: 30px;
+}
+
+/* To set view gallary button*/
+.gallary {
+	padding: 11px;
+	background-color: rgb(108, 122, 137);
+	font-family: 'Unica One', cursive;
+	border: 1px solid rgb(150, 40, 27);
+	font-weight: bold;
+	border-radius: 10px;
+	
+}
+.gallary a {
+	text-decoration: none;
+	color: rgb(51, 51, 51);
+}
+
+/* Wedding Cakes Page */
+.options {
+	font-size: 18px;
+	font-family: 'Unica One', cursive;
+	display: inline-block;
+	text-align: left;
+
+}
+.options p {
+	padding-bottom: 0px;
+	font-size: 13px;
+}
+.input {
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Unica One', cursive;
+}
+
+.types p {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Unica One', cursive;
+}
+
+.filters {
+	padding-left: 50px;
+}
+
+
+.images {
+	width: 300px;
+	height: 300px;
+}
+.sub-sec {
+	display: inline-block;
+	padding-left: 27px;
+}
+
+.section {
+	padding-top: 27px;
+}
+.weddingcakes {
+	padding-bottom: 180px; /*Distance between footer and section */
+}
+
+.submit {
+	display: inline-block;
+	padding-left: 200px;
+}
+
+
+/*  ABOUT US page Styling */
+#info {
+	padding-top: 110px;
+	padding-left: 40px;
+	padding-bottom: 100px; /* To make distance between article & footer */
+
+}
+.bakeryshop {
+	width: 800px;
+	height: 550px;
+
+}
+.patel {
+	display: inline-block;
+	/*border: 1px solid red;*/
+	width: 461px;
+	height: 600px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 22.5px;
+	text-align: justify;
+	font-family: 'Crimson Text', serif;
+}
+.patel1 {
+	font-size: 22.5px;
+	text-align: justify;
+	font-family: 'Crimson Text', serif;
+	padding-top: 0px;
+}
+/* Contact Us Page */
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
+
+
+
+/*Weddingclubs page */
+.img-responsive {
+	width:300px;
+	height: 300px;
+}
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+/* Footer Section */
+.first {
+	/*border: 1px solid red;*/
+	float: left;
+	width: 444px;
+	height: 490px;
+	padding: 5px;
+	background-color: #262626;
+}
+
+.first h2 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 36px;
+	color: #bfbfbf;
+}
+.first span {
+	color: rgb(207, 0, 15);
+}
+.first p {
+	text-align: left;
+	font-family: 'Bad Script', cursive;
+	font-size: 28px;
+	padding-left: 25px;
+
+}
+.one {
+	width: 380px;
+}
+
+.second {
+	/*border: 1px solid red;*/
+	float: left;
+	width: 444px;
+	height: 500px;
+	background-color: #262626;
+}
+.second h2 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 38px;
+	text-align: center;
+	color: #bfbfbf;
+}
+.second p {
+	font-family: 'Bad Script', cursive;
+	font-size: 30px;
+	padding-left: 15px;
+	text-align: center;
+}
+.two {
+	width: 380px;
+}
+
+.third {
+	/*border: 1px solid red;*/
+	float: left;
+	width: 445px;
+	height: 500px;
+	background-color: #262626;
+}
+.three {
+	width: 380px;
+}
+.text-center p {
+	text-align: left;
+	font-family: 'Bad Script', cursive;
+	font-size: 27px;
+	padding-left: 15px;
+}
+.text-center h2 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 34px;
+	text-align: center;
+	color: #bfbfbf;
+}
+
+.socialmediaicons li img {
+	width: 67px;
+	height: 65px;
+}
